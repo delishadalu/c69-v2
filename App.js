@@ -14,7 +14,8 @@ class BottomTabNavigator extends React.Component{
       <Tab.Navigator tabBarOptions={{
         activeTintColor:'blue',
         inactiveTintColor:'gray',
-        style:{backgroundColor:'beige',borderRadius:20}
+        style:{backgroundColor:'beige',borderRadius:20},
+        labelStyle:{fontSize:12}
       }}>
         <Tab.Screen name="Transaction" component={Transaction} />
         <Tab.Screen name="Search" component={Search} />
